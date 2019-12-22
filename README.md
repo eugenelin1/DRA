@@ -3,7 +3,7 @@
 Code for the paper entitled “A deep adversarial variational autoencoder model for dimensionality reduction in single-cell RNA sequencing analysis” by Eugene Lin, Sudipto Mukherjee, and Sreeram Kannan. 
 
 
-Dependencies
+## Dependencies
 
 The code has been tested with the following versions of packages.
 
@@ -12,7 +12,7 @@ Tensorflow 1.4.0;
 Numpy 1.14.2
 
 
-Training
+## Training
 
 For example, a model can be trained as follows:
 
