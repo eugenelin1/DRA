@@ -7,9 +7,9 @@ Code for the paper entitled “A deep adversarial variational autoencoder model 
 
 The code has been tested with the following versions of packages.
 
-Python 2.7.12; 
-Tensorflow 1.4.0; 
-Numpy 1.14.2
+- Python 2.7.12
+- Tensorflow 1.4.0
+- Numpy 1.14.2
 
 
 ## Training
