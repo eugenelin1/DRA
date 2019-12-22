@@ -7,8 +7,8 @@ Dependencies
 
 The code has been tested with the following versions of packages.
 
-Python 2.7.12
-Tensorflow 1.4.0
+Python 2.7.12; 
+Tensorflow 1.4.0; 
 Numpy 1.14.2
 
 
