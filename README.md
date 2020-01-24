@@ -62,7 +62,7 @@ The performance will be written to ./DRA/Res_DRA/tune_logs/Metrics_Zeisel.txt al
 We assess the clustering performance using the normalized mutual information (NMI) scores (as shown in the Metrics_Zeisel.txt file).
 
 
-Furthermore, an example for another model can be trained using the command as follows:
+Furthermore, another model can be trained using the command as follows:
 
 ```bash
 $ python dra.py --model dra --batch_size 128 --learning_rate 0.0007 --beta1 0.9 --n_l 1 --g_h_l1 512 --d_h_l1 512 --bn False --actv sig --trans sparse --keep 0.9 --leak 0.2 --lam 1.0 --epoch 200 --z_dim 10 --train --dataset Zeisel
