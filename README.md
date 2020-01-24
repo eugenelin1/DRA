@@ -21,19 +21,23 @@ There are three python files for DR-A as follows:
 - opts.py
 
 The path for the code could be ./DRA/<python_file_name.py>
+
 We utiize a fixed seed using tf.random.seed(0).
 
 
 ## Dataset
 
 The path for the dataset could be ./DRA/data/<dataset_name>
+
 For example, the Zeisel dataset could be in the folder ./DRA/data/Zeisel as follows:
 
 - ./DRA/data/Zeisel/sub_set-720.mtx
 - ./DRA/data/Zeisel/labels.txt
 
 The Zeisel dataset consists of 3,005 cells from the mouse brain (as shown in the sub_set-720.mtx file). 
+
 In addition, the Zeisel dataset has the ground truth labels of 7 distinct cell types (as shown in the labels.txt file).
+
 There were 720 highest variance genes selected in the Zeisel dataset.
 
 
@@ -54,6 +58,7 @@ The above model is trained using the hyperparameters as follows:
 - Hidden unit for the discriminator = 32/32/32/32 (using the option --d_h_l1, --d_h_l2, --d_h_l3, and --d_h_l4)
 
 The performance will be written to ./DRA/Res_DRA/tune_logs/Metrics_Zeisel.txt along with timestamp.
+
 We assess the clustering performance using the normalized mutual information (NMI) scores (as shown in the Metrics_Zeisel.txt file).
 
 
@@ -72,6 +77,7 @@ The second model is trained using the hyperparameters as follows:
 - Hidden unit for the discriminator = 512 (using the option --d_h_l1)
 
 Again, the performance will be written to ./DRA/Res_DRA/tune_logs/Metrics_Zeisel.txt along with timestamp.
+
 We assess the clustering performance using the normalized mutual information (NMI) scores (as shown in the Metrics_Zeisel.txt file).
 
 Moreover, there are several other options as follows:
