@@ -3,6 +3,11 @@
 Code for the paper entitled “A deep adversarial variational autoencoder model for dimensionality reduction in single-cell RNA sequencing analysis” by Eugene Lin, Sudipto Mukherjee, and Sreeram Kannan. 
 
 
+## Citation
+
+Lin, E., Mukherjee, S., & Kannan, S. (2020). A deep adversarial variational autoencoder model for dimensionality reduction in single-cell RNA sequencing analysis. BMC bioinformatics, 21(1), 1-11.
+
+
 ## Dependencies
 
 The code has been tested with the following versions of packages.
